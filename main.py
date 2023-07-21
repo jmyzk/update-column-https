@@ -23,4 +23,4 @@ def hello_http(request):
     else:
         sheet_id = 'None'
         email = 'None'
-    return 'email is  {}!'.format(email)
+    return 'sheet_id = {} email = {}!'.format(sheet_id, email)
